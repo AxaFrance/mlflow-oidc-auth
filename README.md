@@ -11,6 +11,7 @@ This plugin allows you to use OIDC for user management in MLflow, enabling singl
 
 This project is not affiliated with, endorsed by, or sponsored by the MLflow Project, Databricks, the Linux Foundation, or LF Projects, LLC.
 MLflow and related marks are trademarks of their respective owners.
+Maintained by Kharkevich Engineering Lab.
 
 ### Features
 - OIDC-based authentication for MLflow UI and API
@@ -50,6 +51,7 @@ Important: keep this key stable across application restarts and replicas. If the
 ## Development
 
 For development quick start, please refer to the [Development and Contribution](docs/development.md) section.
+Contribution guidelines are available in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
