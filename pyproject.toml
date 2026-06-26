@@ -3,8 +3,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mlflow-oidc-auth"
-dynamic = ["version"]
+name = "mlflow-oidc-auth-afa"
+version = "0.0.1"
 description = "OpenID Connect (OIDC) auth plugin for MLflow"
 readme = "README.md"
 keywords = ["mlflow", "oauth2", "oidc"]
@@ -104,9 +104,6 @@ mlflow_oidc_auth = [
 where = ["."]
 include = ["mlflow_oidc_auth", "mlflow_oidc_auth.*"]
 exclude = ["tests", "tests.*"]
-
-[tool.setuptools.dynamic]
-version = {attr = "mlflow_oidc_auth.version"}
 
 [tool.black]
 line-length = 160
